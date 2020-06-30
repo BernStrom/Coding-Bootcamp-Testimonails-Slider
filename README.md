@@ -1,80 +1,74 @@
-# Frontend Mentor - Coding Bootcamp Testimonials Slider
+<p align="center">
+  <a href="#introduction">Introduction</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#objectives-of-the-project">Objectives</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#gear-technical-components">Technical Components</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bookmark-attribution">Attribution</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#camera_flash-screenshots-of-responsive-design">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
+
+## Coding Bootcamp Testimonials Slider
 
 ![Design preview for the Coding Bootcamp Testimonials Slider coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## 👋 Welcome!
 
-Thanks for checking out this front-end coding challenge.
+Thanks for checking out this project.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
+This project was built on HTML5, CSS3, ES6+ JavaScript and jQuery.
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+## Introduction
 
-## The challenge
+The Coding Bootcamp Testimonials Slider is a project for website layout practice, building responsive design across mulitple devices and JS DOM manipulation with jQuery. 
 
-Your challenge is to build out this testimonial slider and get it looking as close to the design as possible.
+This project was obtained from a list of challenges by Frontend Mentor.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+## :pushpin: Objectives of the project
 
-Your users should be able to: 
+* Use semantic HTML5 markup. *Managing code readability, accessibility and SEO optimization of the web page.*
 
-- View the optimal layout for the component depending on their device's screen size
-- Navigate the slider using either their mouse/trackpad or keyboard
+* Style with as much reusable CSS classes. 
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+* Use responsive design to make the page compatible on screen across mobile to desktop devices.
 
-## Where to find everything
+* Use JavaScript for switching the slides between the two testimonials.
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
+* Hover & active states for the interactive elements of the page.
 
-The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
+* Keep the code as clean as possible.
 
-If you would like the Sketch file in order to inspect the design in more detail it is available to buy from the challenge page on the platform.
+And don't forget the most important core of it all, _**Happy coding!🚀**_
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+_P.S:_ _**Hover state features is not applicable on touchscreen devices, as it is only available through hovering over with a cursor, such as a mouse device.**_
 
-There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
+## :gear: Technical Components
 
-## Building your project
+* Flexbox for page layout
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+* Media queries used to build out the responsive design
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). This will make it easier to share your code with the community if you need some help. If you're not sure how to do this, [have a read through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a URL. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, but we recommend using [Vercel](https://bit.ly/fem-vercel). We've got more information about deploying your project with Vercel below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes that you could create to make reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-7. If you'd like to try making your project fully responsive, we'd recommend checking out [Sizzy](https://bit.ly/fm-sizzy). It's a great browser that makes it easy to view your site across multiple devices.
+* jQuery for the animtated transition and interactively switching the slides
 
-## Deploying your project
+* Manipulation of the DOM by using JavaScript and Event Handlers
 
-As mentioned above, there are a number of ways to host your project for free. We recommend using [Vercel](https://bit.ly/fem-vercel) as it's an amazing service and extremely simple to get set up with. If you'd like to use Vercel, here are some steps to follow to get started:
+## :bookmark: Attribution
 
-1. [Sign up to Vercel](https://bit.ly/fem-vercel-signup) and go through the onboarding flow, ensuring your GitHub account is connected by using their [Vercel for GitHub](https://vercel.com/docs/v2/git-integrations/vercel-for-github) integration.
-2. Connect your project to Vercel from the ["Import project" page](https://vercel.com/import), using the "From Git Repository" button and selecting the project you want to deploy.
-3. Once connected, every time you `git push`, Vercel will create a new [deployment](https://vercel.com/docs/v2/platform/deployments) and the deployment URL will be shown on your [Dashboard](https://vercel.com/dashboard). You will also receive an email for each deployment with the URL.
+[Responsive design testing app by Sizzy](https://a.paddle.com/v2/click/49831/114619?link=1947/ "Sizzy.co")
 
-## Sharing your solution
+## :camera_flash: Screenshots of Responsive Design
 
-There are multiple places you can share your solution:
+#### Phone (iPhone XS Max @ 414 x 896)
+![Page preview on iPhone XS Max](./screenshots/iPhone-XS-Max_(414x896).png)
+<hr />
 
-1. Submit it on the platform so that other users will see your solution on the site. Here's our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) to help you do that.
-2. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack).
-3. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor** including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
+#### Tablet w/ device frame (iPad Pro 10.5 @ 834 x 1112)
+![Page preview on iPad Pro 10.5](./screenshots/iPad-Pro-10.5_(834x1112).png)
+<hr />
 
-## Giving feedback
+#### PC / Laptop (Macbook Pro 15 @ 1680 x 1050)
+![Page preview on Macbook Pro 15](./screenshots/Macbook-Pro-15_(1680x1050).png)
+<hr />
 
-Feedback is always welcome, so if you have any to give on this challenge please email hi[at]frontendmentor[dot]io.
+## :memo: License
+This project is licensed under the terms of the MIT license. For more information, please refer to the license [documentation](LICENSE.md).
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
-
-## Community Sponsors
-
-A massive thank you to our community sponsors!
-
-- [Vercel](https://bit.ly/fem-vercel) offers an amazing website hosting service, which is super simple to set up. Just connect your GitHub account, point to a repo and your site will be deployed. Perfect for your website and frontend hosting needs - especially since it's free to get started!
-- [Sizzy](https://bit.ly/fm-sizzy) is an extremely useful browser designed specifically to improve a developer's workflow when building websites. You can fire up multiple device emulators and run them all in sync while building out your web pages. Perfect for helping build fully responsive websites!
-- [Qualified](https://bit.ly/fem-qualified) helps companies assess engineers with realistic code tests and pair-programming interviews. Their assessments test on-the-job skills as opposed to algorithmic puzzles which leads to a much better recruitment process for everyone involved.
