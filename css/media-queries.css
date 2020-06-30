@@ -1,0 +1,170 @@
+/* Any devices, from 1200px and below */
+@media only screen and (max-width: 1200px) {
+    body {
+      background-position: 90% 24%, bottom left, center 57%;
+      background-size: 100%, 100%, 20%;
+    }
+    
+    #testimonials {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    #tanya-pic, #john-pic {
+      width: 90%;
+    }
+    
+    #buttons-div {
+      left: 34%;
+    }
+    
+    button {
+      width: 45px;
+      height: 45px;
+    }
+    
+    #quote {
+      margin-top: 10%;
+      border: 0;
+      padding: 0;
+      max-wdith: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #tanya-quote, #john-quote {
+      margin-left: 0;
+      margin-right: 0;
+      font-size: 1.3rem;
+      text-align: center;
+      max-width: 90%;
+    }
+    
+    #tanya-title, #john-title {
+      margin-left: 0;
+      text-align: center;
+      max-width: 160px;
+    }
+}
+  
+/* MEDIA QUERIES for the BACKGROUND IMAGE SIZE & POSITION */
+@media only screen and (min-width: 420px) and (max-width: 459px) {
+    body {
+      background-position: 90% 21%, bottom left, center 59%;
+      background-size: 100%, 90%, 20%;
+    }
+}
+  
+@media only screen and (min-width: 460px) and (max-width: 499px){
+    body {
+      background-position: 90% 21%, bottom left, center 61%;
+      background-size: 100%, 90%, 20%;
+    }
+}
+  
+@media only screen and (min-width: 500px) and (max-width: 539px) {
+    body {
+      background-position: 90% 18%, bottom left, center 64%;
+      background-size: 100%, 80%, 15%;
+    }
+}
+  
+@media only screen and (min-width: 540px) and (max-width: 559px) {
+    body {
+      background-position: 90% 18%, bottom left, center 66%;
+      background-size: 100%, 70%, 15%;
+    }
+}
+  
+@media only screen and (min-width: 560px) and (max-width: 599px) {
+    body {
+      background-position: 90% 16%, bottom left, center 69%;
+      background-size: 100%, 70%, 15%;
+    }
+}
+  
+@media only screen and (min-width: 600px) and (max-width: 619px) {
+    body {
+      background-position: 90% 13%, bottom left, center 70%;
+      background-size: 100%, 70%, 12%;
+    }
+}
+  
+@media only screen and (min-width: 620px) and (max-width: 634px) {
+    body {
+      background-position: 90% 11%, bottom left, center 71%;
+      background-size: 100%, 70%, 12%;
+    }
+}
+  
+@media only screen and (min-width: 635px) and (max-width: 674px) {
+    body {
+      background-size: 100%, 60%, 12%;
+    }
+}
+  
+@media only screen and (min-width: 675px) and (max-width: 739px) {
+    body {
+      background-position: 50% 14%, bottom left, center 73%;
+      background-size: 92%, 60%, 10%;
+    }
+}
+  
+@media only screen and (min-width: 740px) and (max-width: 819px) {
+    body {
+      background-position: 40% 14%, bottom left, center 74%;
+      background-size: 84%, 60%, 10%;
+    }
+}
+  
+@media only screen and (min-width: 820px) and (max-width: 859px) {
+    body {
+      background-position: 30% 13%, bottom left, center 74%;
+      background-size: 78%, 50%, 10%;
+    }
+}
+  
+@media only screen and (min-width: 860px) and (max-width: 899px) {
+    body {
+      background-position: 30% 13%, bottom left, center 75%;
+      background-size: 74%, 50%, 10%;
+    }
+}
+  
+@media only screen and (min-width: 900px) and (max-width: 959px) {
+    body {
+      background-position: 38% 12%, bottom left, center 75%;
+      background-size: 70%, 45%, 8%;
+    }
+}
+  
+@media only screen and (min-width: 960px) and (max-width: 1059px) {
+    body {
+      background-position: 40% 11%, bottom left, center 75%;
+      background-size: 65%, 45%, 8%;
+    }
+}
+  
+@media only screen and (min-width: 1060px) and (max-width: 1149px) {
+    body {
+      background-position: 43% 10%, bottom left, center 76%;
+      background-size: 58%, 40%, 7%;
+    }
+}
+  
+@media only screen and (min-width: 1150px) and (max-width: 1200px) {
+    body {
+      background-position: 40% 10%, bottom left, center 78%;
+      background-size: 57%, 35%, 7%;
+    }
+}
+  
+/* Any devices, from 1600px and above */
+@media only screen and (min-width: 1600px) {
+    #quote blockquote {
+     padding-right: 10%;
+    }
+}
